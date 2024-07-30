@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <a href="#intro">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#languages">Languages</a>
+            <a href="#hobby">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section id="intro" class="intro section">
+            <img src="Kunal (2).jpeg" alt="Kunal Dutta"/>
+            <h2>Welcome to My Portfolio</h2>
+            <p>
+                <strong>Name:</strong> Kunal Dutta<br/>
+                <strong>Age:</strong> 21<br/>
+                <strong>Sex:</strong> M<br/>
+                <strong>Address:</strong> Kolkata
+            </p>
+        </section>
+        <section id="about" class="card section">
+            <h3>About Me</h3>
+            <p>
+                Hello! My name is Kunal Dutta, a 22-year-old from Madhyamgram. I am passionate about technology and software development, with a strong background in programming and web development. Currently, I am working on various projects, including developing an online hotel and resort booking system and an AI-based music recommendation system called SongSift.
+            </p>
+            <p>
+                In addition to my technical skills, I am a communicative and motivated individual with a keen interest in continuous learning and personal growth. My portfolio showcases my work and experiences, and I am always open to new opportunities and collaborations.
+            </p>
+            <p>
+                Feel free to explore my projects and connect with me through my social media profiles linked below.
+            </p>
+        </section>
+        
+        <section id="skills" class="card section">
+            <h3>Computer Languages Known</h3>
+            <ol>
+                <li>C</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>Java</li>
+            </ol>
+        </section>
+        <section id="languages" class="card section">
+            <h3>Languages Known</h3>
+            <ol>
+                <li>English</li>
+                <li>Bengali</li>
+                <li>Spanish</li>
+                <li>Hindi</li>
+            </ol>
+        </section>
+        <section class="card section">
+            <h3>Skills</h3>
+            <dl>
+                <li>Web Development</li>
+                <li>DSA</li>
+                <li>Communication</li>
+                <li>Hard Working</li>
+                <li>Motivated</li>
+            </dl>
+        </section>
+        <section class="card section table-container">
+            <h3>My Socials</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Information</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Social Media:</td>
+                        <td>
+                            <dl>
+                                <li><a href="https://www.linkedin.com/in/kunal-dutta-a15608257">LinkedIn Profile</a></li>
+                                <li><a href="https://instagram.com/6546_kunal?igshid=MzNlNGNkZWQ4Mg==">Instagram Profile</a></li>
+                            </dl>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="hobby" class="card section hobbies">
+            <h3>My Hobbies</h3>
+            <div class="hobby">
+                <h4>Gardening</h4>
+                <p>I love gardening. It brings me peace, and I have a small garden on my rooftop.</p>
+            </div>
+            <div class="hobby">
+                <h4>Reading</h4>
+                <p>I love to read, especially religious texts and ancient stories.</p>
+            </div>
+            <div class="hobby">
+                <h4>Cooking</h4>
+                <p>I love to cook and serve. It provides me great satisfaction.</p>
+            </div>
+        </section>
+        
+        <section class="card section table-container">
+            <h3>Experience</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Description</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>HTML, CSS based website</td>
+                        <td>You are on it</td>
+                    </tr>
+                    <tr>
+                        <td>Online Hotel and Resort Booking System</td>
+                        <td>
+                            <ul>
+                                <li>Technologies: JAVA 2 EE (JSP, SERVLETS, JDBC)</li>
+                                <li>Web Development Tools: HTML, CSS, JAVASCRIPT, XML</li>
+                                <li>IDE: Eclipse</li>
+                            </ul>
+                        </td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr>
+                        <td>SongSift</td>
+                        <td>A.I. model that can recommend new music based on listeners' taste in music.</td>
+                        <td>Completed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact" class="card section">
+            <form action="https://formspree.io/f/xanwonkz" method="POST">
+                <h3>Contact Me</h3>
+                <label for="Email">
+                    Email: <input type="email" name="email" id="Email" required>
+                </label><br/>
+                <label for="ph">
+                    Phone: <input type="text" name="phone" id="ph">
+                </label><br/>
+                <label for="looking-for">
+                    Looking For:
+                    <select name="looking_for" id="looking-for">
+                        <option value="Recruiter">Recruiter</option>
+                        <option value="Junior">Junior</option>
+                        <option value="Senior">Senior</option>
+                        <option value="Friend">Friend</option>
+                        <option value="LoveInterest">LoveInterest</option>
+                    </select>
+                </label><br/>
+                <label for="feedback">
+                    Feedback:
+                    <textarea name="message" id="feedback" placeholder="Please give your valuable feedback here" rows="5" required></textarea>
+                </label><br/>
+                <input type="submit" value="Submit"><br/>
+            </form>
+        </section>
+        
+    </div>
+    <footer>
+        <p>&copy; 2024 Kunal Dutta. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
